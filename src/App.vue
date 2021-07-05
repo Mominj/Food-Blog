@@ -2,7 +2,7 @@
   <div>
     <Header></Header>
     <Navigation></Navigation>
-    <!-- <Slider></Slider> -->
+
   </div>
 
   <router-view></router-view>

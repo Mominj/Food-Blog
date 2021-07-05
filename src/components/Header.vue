@@ -34,7 +34,6 @@ export default {
      align-items: center;
      padding: 3% 10%;
      height: 120px;
-
  }
  .logo{
      width: auto;
@@ -51,7 +50,7 @@ export default {
      justify-content: last baseline;
  }
  .search-box{
- margin-right: 10px;
+  margin-right: 10px;
  }
  .other .search-box input[type=text] {
   padding: 9px;
@@ -59,13 +58,11 @@ export default {
   border: 1px solid grey;
   float: left;
   width: 80%;
-
   border-radius: 3px 0 0  3px;
 }
 
 /* Style the submit button */
 .other  .search-box button {
-  float: left;
   width: 20%;
   padding: 9px;
   background: #03a855;
@@ -98,4 +95,40 @@ export default {
     
  }
 
+
+
+
+@media only screen and (max-width: 600px) {
+    .header{
+     justify-content: space-between;
+     align-items: center;
+     padding: 3% 7%;
+     
+ }
+  .other .search-box input[type=text] {
+   padding: 9px;
+  font-size: 14px;
+  width: 60%;
+  border-radius: 3px 0 0  3px;
+}
+.other  .search-box button {
+  float: left;
+  width: 50px;
+
+  border-radius: 0 2px 2px  0;
+}
+ .other a{
+    background: #ce5f52 ;
+    color: white;
+    font-size: 10px;
+    border-left: none;
+    cursor: pointer;
+    padding: 9px;
+    text-decoration: none;
+    border-radius: 3px;
+ }
+  .search-box{
+  margin-right: 0;
+ }
+}
 </style>
